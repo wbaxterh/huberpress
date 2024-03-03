@@ -1,4 +1,6 @@
 <?php
+include get_template_directory() . '/classes/bootstrap-navwalker.php';
+
 function my_custom_theme_setup() {
     // Make sure the title tag & custom logo are added
     add_theme_support( 'title-tag' );
@@ -15,7 +17,7 @@ add_action( 'after_setup_theme', 'my_custom_theme_setup' );
 
 //Enqueue CSS files
 function my_theme_enqueue_styles() {
-    
+
     // Enqueue the main stylesheet
     wp_enqueue_style( 'huberpress-style', get_stylesheet_uri() );
 
