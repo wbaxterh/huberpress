@@ -1,0 +1,19 @@
+/*
+Theme Name: Huberpress
+Theme URI: http://huberpress.com/huberpress-theme
+Author: Wes Huber, Chris Huber
+Author URI: http://huberpress.com
+Description: The base theme for huberpress website
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom, responsive, clean
+Text Domain: huberpress-theme
+*/
+.disable-link-style,
+.disable-link-style:hover,
+.disable-link-style:focus {
+	color: inherit !important;
+	text-decoration: none !important;
+	transition: none !important;
+}
