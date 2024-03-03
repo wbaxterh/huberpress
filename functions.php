@@ -23,6 +23,10 @@ function my_theme_enqueue_styles() {
 
     // Enqueue header stylesheet
     wp_enqueue_style( 'huberpress-header-style', get_template_directory_uri() . '/css/header.css', array(), '1.0', 'all' );
+    
+    // Enqueue footer stylesheet
+    wp_enqueue_style('footer-style', get_stylesheet_directory_uri() . '/css/footer.css');
+
 }
 
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );

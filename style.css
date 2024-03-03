@@ -10,10 +10,29 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: custom, responsive, clean
 Text Domain: huberpress-theme
 */
+
+body {
+	font-family: "Jost", sans-serif !important;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
 .disable-link-style,
 .disable-link-style:hover,
 .disable-link-style:focus {
 	color: inherit !important;
 	text-decoration: none !important;
 	transition: none !important;
+}
+.huberpress-btn-primary {
+	background-color: #111 !important; /* Dark background */
+	color: #fff !important; /* White text */
+	border-color: #111 !important; /* Matching border color */
+}
+
+.huberpress-btn-primary:hover,
+.huberpress-btn-primary:focus {
+	background-color: #000 !important; /* Slightly darker background on hover/focus for a subtle effect */
+	color: #fff !important; /* Maintain white text */
+	border-color: #000 !important; /* Matching border color for hover/focus */
 }

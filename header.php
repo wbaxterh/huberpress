@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/header.css" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
@@ -40,8 +41,7 @@
                 ?>
             </div>
             <div class="ms-auto">
-                <a href="/login" class="btn btn-primary">Log In</a>
-                <a href="/signup" class="btn btn-secondary">Sign Up</a>
+                <a href="/login" class="btn huberpress-btn-primary">Log In / Sign Up</a>
             </div>
         </div>
     </nav>
